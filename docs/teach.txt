@@ -1,0 +1,7 @@
+teach命令简介
+参数及基本用法如下：
+1. teach {question} {answer} [-g/--global]   添加问答
+2. teach -q/--query {question/answer} 按内容查询问答
+3. teach -d/--delete {index} 按编号删除问答
+4. teach {answer} -u/--update {index} 按编号修改回答
+问答中的空格请使用'\space;'表示，'\'请使用'\\'表示。

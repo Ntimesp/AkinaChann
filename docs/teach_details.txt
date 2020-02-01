@@ -1,0 +1,11 @@
+teach命令介绍
+参数及用法如下：
+1. teach [question] [answer]
+2. teach -q [question/answer]
+3. teach -d [index]
+特殊事项：
+问答中的空格请使用'\space;'表示，'\'请使用'\\'表示。
+暂不支持模糊匹配，未来会增加按编号查询问答。
+teach -d 命令需要权限3。
+使用冲突的参数，例如'teach -q a -d b'，会被默认为'teach -q a'。
+若遇到bug或有更好的建议，希望大家可以向秋菜反馈。

@@ -1,0 +1,2 @@
+rowid(internal), user_id(QQ number), nickname(为none时使用context['message'][...]['nickname'], authority(默认2 我是5）
+ (int) (text, text, integer)
