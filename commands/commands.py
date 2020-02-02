@@ -7,7 +7,7 @@ from commands.info import *
 from commands.help import *
 from commands.group import *
 from commands.weather import *
-from commands.image import *
+#from commands.image import *
 
 def handle_reply(bot, context):
     reply = answer(context['message'], context['sender']['nickname'], context['group_id'])
