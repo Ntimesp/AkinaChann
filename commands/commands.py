@@ -36,7 +36,7 @@ def handle_commands(bot, context):
     if handle_weather(bot, context):
         return True
     
-    if handle_image(bot, context):
-        return True
+    # if handle_image(bot, context):
+    #     return True
     
     return False

@@ -5,7 +5,7 @@ from pypinyin import lazy_pinyin
 import os
 import json
 
-f = open(os.path.join('.', 'utils', 'city.json'), 'r')
+f = open(os.path.join('.', 'json', 'city.json'), 'r')
 area_data = json.load(f)
 f.close()
 
